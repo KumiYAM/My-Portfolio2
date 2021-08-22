@@ -51,22 +51,32 @@
 /* header/ nav / stylew end */
 /* hero picture boad */
   .hero {
+      display:flex; 
       height: 110px;
       width: 100%;
       margin-bottom:25px;
-      background-image: url("../images/rustic-wall-stripe.jpg");
+      background-image: url(".././assets/wave_640.jpg");
       background-size: cover;
       background-position: center;
     }
-    .hero h2 {
+  .p {
+    background-color:var(--primary-color);
+    text-align: right;
+    margin-right: 40px;
+    margin: top 30px;
+  }
+  
+    /* hero picture boad end */
+
+ /* "About-Me" bgn */
+ .About-me  {
       text-align: right;
       background-color: var(--tertiary-color);
     }
-    /* hero picture boad end */
 
- /* "About-Me" bgn */  
-     #para h1 {
+   h1 {
       text-align: left;
+      
       width: 10%;
       display: flex;
       margin-left: 15px;
@@ -75,6 +85,7 @@
      }
     #para p {
       text-align: justify;
+      text-decoration:none;
       width: 90%;
       margin-right: 15px;
       display: flex;
@@ -82,17 +93,47 @@
 
  
  
-.main-panel {
+.main-panel-hero-work1 {
     width: 90%;
     display:flex; 
     padding: 5px;
     border: 3px solid var(--tertiary-color);
     margin: auto;
+    background-image: url(".././assets/wing_640.jpg");
+
     }
-
-
-
-
+.hero-work2 {
+    width: 44%;
+    display:flex; 
+    padding: 5px;
+    border: 3px solid var(--tertiary-color);
+    margin: auto;
+    background-image: url(".././assets/tunnel_640.jpg") width="250" height="120";
+    }
+.hero-work3 {
+  width: 44%;
+  display:flex; 
+  padding: 5px;
+  border: 3px solid var(--tertiary-color);
+  margin: auto;
+  background-image: url(".././assets/skyscrapers_640.jpg") width="250" height="120";
+}
+.hero-work4 {
+   width: 44%;
+    display:flex; 
+    padding: 5px;
+    border: 3px solid var(--tertiary-color);
+    margin: auto;
+    background-image: url(".././assets/woodpanel_640.jpg") width="250" height="120";
+}
+.hero-work5 {
+  width: 44%;
+    display:flex; 
+    padding: 5px;
+    border: 3px solid var(--tertiary-color);
+    margin: auto;
+    background-image: url(".././assets/hero-bg.jpg") width="250" height="120";
+}
 
 
 /* showcase of work end */

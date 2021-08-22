@@ -6,7 +6,45 @@
     <link rel="stylesheets" href="./assets/css/style.css.k" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>K---YAM</title>
-  
+  <style>
+    div.main-panel-hero-work1 {
+        border: 1pz solid;
+         --tertiary-color: #39a6b2;
+
+    }
+
+    div.main-panel-hero-work1 img {
+        width:90%;
+        height: auto;
+    }
+* {
+    box-sizing: border-box;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 90%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.9999%;
+        margin: 6px 0;
+    }
+}
+
+@media only scree and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+   </style>
 </head>
 
 <body>
@@ -36,77 +74,95 @@
     <!-- "end of Header"-->
 
     <!-- " hero picture boad "-->
+ <div class="responsive">
     <section class="hero">
         <img src="./assets/wave_640.jpg" class="float-center" />
         <p> Imagin </p>
-
-    </section>    
+    </section>
+ </div>       
         <!-- "About me" start-->
-   
-        <div id="About-me">
+<div class="responsive">   
+     
             <div class="flex-row">
-                <div id="About-me" >
-                    <h1 class="section-title primary-boader">About<br> Me</h1>
-                    <p id="para">xoxoxwufdbvidugfieuhcmvbuifeuxox</p>
+                <div>
+                 <h1 class="About Me">About<br> Me</h1>
+                    <p>wufdbvidu   gfieuhc mvbuif euxo guslw dhak hdiafi hnhiwdy wohfiw  gdtyoiflkfh ji jiaoi huaox</p>
                 </div>
             </div>
-        </div>
-
+        
+</div>
 
 
             <!-- " showcase of work" start-->
-            <section id="showcase">
+<div class="responsive">           
+            <section class="works">
                 <h1>Work</h1>
+            </section>    
                 <!-- "main folio"-->
-    <section class="main-panel">
+    <div class="main-panel-hero-work1">
         <imag src="./assets/wing_640.jpg" class="float-right" />
                 
                     <h3>Surf Report </h3>
                     <h6>MERN Stack</h6>
-    </section>
-
+    </div>
+</div>
                 <!--"2nd folio" -->
-
-                <article class="hero-work"></article>
+ <div class="responsive">
+            <div class="hero-work2">
+                <a target="-blank" href="./assets/tunnel_640.jpg" width="1000" height="400"></a>
+          
                 <imag src="./assets/tunnel_640.jpg" alt="elec panel" />
-                <div class="site title">
+                  
                     <h3>LED Wall</h3>
                     <h6>Node/IoT</h6>
-                </div>
+                  </div> 
+            </div>
+ </div>
 
                 <!--"3rd folio" -->
+<div class="responsive">
+            <div class="hero-work3">
+                <a target="-blank" href="./assets/skyscrapers_640.jpg" width="1000" height="400"></a>
 
-                <article class="hero-work"></article>
-                <imag src="./assets/skyscrapers_640.jpg" alt="calculater-pic" />
-                <div class="site title">
+                <imag src="./assets/skyscrapers_640.jpg" alt="skyscrapers-pic" />
+                
                     <h3>Calculater</h3>
                     <h6>React/Javascript/CSS</h6>
-                </div>
-
+            </div>
+</div>
                 <!--"4th folio" -->
+<div class="responsive">  
+                <div class="hero-work4">
+                <a target="-blank" href="./assets/tunnel_640.jpg" width="1000" height="400"></a>
 
-                <article class="hero-work"></article>
-                <imag src="./assets/woodpanel_640.jpg" alt="pastel-green" />
-                <div class="site title">
+                <imag src="./assets/woodpanel_640.jpg" alt="pastelcolor" />
+                
                     <h3>Pastel Puzzels</h3>
                     <h6>MERN Stack</h6>
-                </div>
-
+            </div>
+</div>
                 <!--"5th folio" -->
-
-                <article class="hero-work"></article>
+<div class="responsive">
+                <div class="hero-work5">
+                <a target="-blank" href="./assets/hero-bg.jpg" width="1000" height="400"></a>   
                 <imag src="./assets/hero-bg.jpg" alt="runner-pic" />
-                <div class="site-pic">
+                
                     <h3>Run Buddy</h3>
                     <h6>HTML/CSS</h6>
                 </div>
-
+            </div>
             </section>
+</div>            
             <!-- "Showcase of work end" -->
 
+
+
+
+
             <!-- "contact info"-->
-            <footer>
-              <nav>  
+<footer>
+<div class="responsive">
+            <nav>  
                 <h1>Contact Me</h1>
                 <div>
                     <h4>987.123.1234</h4>
@@ -116,8 +172,7 @@
                     <a href="https://spotify.com">Spotify</a>
                  </div>
               </nav>
-        <div>
-     </footer>
+</div>
+</footer>
 </body>
-
 </html>
