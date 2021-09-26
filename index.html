@@ -1,178 +1,109 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    
+
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheets" href="./assets/css/style.css.k" >
+    <link rel="stylesheet" href="./assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kumiko Yamagata</title>
-  <style>
-    div.main-panel-hero-work1 {
-        border: 1pz solid;
-         --tertiary-color: #39a6b2;
-
-    }
-
-    div.main-panel-hero-work1 img {
-        width:90%;
-        height: auto;
-    }
-* {
-    box-sizing: border-box;
-}
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 90%;
-}
-
-@media only screen and (max-width: 700px) {
-    .responsive {
-        width: 49.9999%;
-        margin: 6px 0;
-    }
-}
-
-@media only scree and (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-   </style>
 </head>
 
 <body>
     <div class="header">
         <!-- navigation tags -->
-        <h1>
+        <h2>
             <a href="/">Kumiko Yamagata</a>
-        </h1>
+
+        </h2>
         <nav>
-            <Ul>
+            <ul id="nav-links">
                 <li>
-                    <a href="about-me">About me</a>
+                    <a href="#about-me">About me</a>
                 </li>
                 <li>
-                    <a href="Work">Work</a>
+                    <a href="#work">Work</a>
                 </li>
                 <li>
-                    <a href="Contact-me">Contact me</a>
+                    <a href="#contact-me">Contact me</a>
                 </li>
                 <li>
-                    <a href="Resume">Resume</a>
+                    <a href="#resume">Resume</a>
                 </li>
-            </Ul>
+            </ul>
         </nav>
     </div>
-   
     <!-- "end of Header"-->
-
     <!-- " hero picture boad "-->
- <div class="responsive">
-    <section class="hero">
-        <img src="./assets/wave_640.jpg" class="float-center" />
-        <p> Imagin </p>
-    </section>
- </div>       
-        <!-- "About me" start-->
-<div class="responsive">   
-     
-            <div class="flex-row">
-                <div>
-                 <h1 class="About Me">About<br> Me</h1>
-                <p>wufdbvidu   gfieuhc mvbuif euxo guslw dhak hdiafi hnhiwdy wohfiw  gdtyoiflkfh ji jiaoi huaox</p>
-                </div>
-            </div>
-        
-</div>
 
-
+    <section class="frontimage">
+        <img src="./assets/image/wave_640.jpg" />
+        <p> imagine...all the people, meeting once only.....may that us to feel pleasures living at the same time in the
+            universe.</p>
+    </section>    
+    
+    <!-- "About me" start-->
+    <section>
+            
+                <h3 id="about-me">About<br /> Me</h3>
+                <h3 id="work">Work</h3>
+            
             <!-- " showcase of work" start-->
-<div class="responsive">           
-            <section class="works">
-                <h1>Work</h1>
-            </section>    
-                <!-- "main folio"-->
-    <div class="main-panel-hero-work1">
-        <imag src="./assets/wing_640.jpg" class="float-right" />
-                
-                    <h3>Surf Report </h3>
-                    <h6>MERN Stack</h6>
-    </div>
-</div>
+            <main>
+                <section class="first-project">
+                    <!-- "main folio"-->
+                    <div class="">
+                        <img src="./assets/wing_640.jpg" />
+                        <h3>Surf Report </h3>
+                        <h6>MERN Stack</h6>
+                    </div>
+                </section>
                 <!--"2nd folio" -->
- <div class="responsive">
-            <div class="hero-work2">
-                <a target="-blank" href="./assets/tunnel_640.jpg" width="1000" height="400"></a>
-          
-                <imag src="./assets/tunnel_640.jpg" alt="elec panel" />
-                  
-                    <h3>LED Wall</h3>
-                    <h6>Node/IoT</h6>
-                  </div> 
-            </div>
- </div>
+                <section class="flex-project">
+                    <div class="hero-work">
+                        <a target="-blank" href="./assets/tunnel_640.jpg" width="1000" height="400"></a>
+                        <img src="./assets/tunnel_640.jpg" alt="elec panel" />
+                        <h3>LED Wall</h3>
+                        <h6>Node/IoT</h6>
+                    </div>
 
-                <!--"3rd folio" -->
-<div class="responsive">
-            <div class="hero-work3">
-                <a target="-blank" href="./assets/skyscrapers_640.jpg" width="1000" height="400"></a>
+                    <!--"3rd folio" -->
 
-                <imag src="./assets/skyscrapers_640.jpg" alt="skyscrapers-pic" />
-                
-                    <h3>Calculater</h3>
-                    <h6>React/Javascript/CSS</h6>
-            </div>
-</div>
-                <!--"4th folio" -->
-<div class="responsive">  
-                <div class="hero-work4">
-                <a target="-blank" href="./assets/tunnel_640.jpg" width="1000" height="400"></a>
+                    <div class="hero-work">
+                        <a target="-blank" href="./assets/skyscrapers_640.jpg" width="1000" height="400"></a>
+                        <img src="./assets/skyscrapers_640.jpg" alt="skyscrapers-pic" />
+                        <h3>Nudge</h3>
+                        <h6>API/Javascript/CSS</h6>
+                    </div>
 
-                <imag src="./assets/woodpanel_640.jpg" alt="pastelcolor" />
-                
-                    <h3>Pastel Puzzels</h3>
-                    <h6>MERN Stack</h6>
-            </div>
-</div>
-                <!--"5th folio" -->
-<div class="responsive">
-                <div class="hero-work5">
-                <a target="-blank" href="./assets/hero-bg.jpg" width="1000" height="400"></a>   
-                <imag src="./assets/hero-bg.jpg" alt="runner-pic" />
-                
-                    <h3>Run Buddy</h3>
-                    <h6>HTML/CSS</h6>
-                </div>
-            </div>
-            </section>
-</div>            
-            <!-- "Showcase of work end" -->
+                    <!--"4th folio" -->
+                    <div class="hero-work">
+                        <a target="-blank" href="./assets/tunnel_640.jpg" width="1000" height="400"></a>
+                        <img src="./assets/woodpanel_640.jpg" alt="pastelcolor" />
 
+                        <h3>Pastel Puzzels</h3>
+                        <h6>MERN Stack</h6>
+                    </div>
 
+                    <!--"5th folio" -->
 
+                    <div class="hero-work">
+                        <a target="-blank" href="./assets/hero-bg.jpg" width="1000" height="400"></a>
+                        <img src="./assets/hero-bg.jpg" alt="runner-pic" />
 
+                        <h3>Run Buddy</h3>
+                        <h6>HTML/CSS</h6>
+                    </div>
+                    <!-- "Showcase of work end" -->
+                </section>
+    </section>
 
-            <!-- "contact info"-->
-<footer>
-<div class="responsive">
-            <nav>  
-                <h1>Contact Me</h1>
-                <div>
-                    <h4>972.768.7000</h4>
-                    <a href="sun.kumiko@pm.me">sun.kumiko@pm.me</a>
-                    <a href="https://www.github.com/KumiYAM">Github</a>
-                    <a href="https://twitter.com">twitter</a>
-                    <a href="https://spotify.com">Spotify</a>
-                 </div>
-              </nav>
-</div>
-</footer>
+    <!-- "contact info"-->
+    <footer>
+        <ul>
+        <h3 id="contact">Contact<br/>Me</h3>
+        </ul>    
+            
+    </footer>
 </body>
+
 </html>
