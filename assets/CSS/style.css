@@ -1,30 +1,50 @@
+body {
+    background-color: cadetblue;
+}
+div.header {
+    display: block;
+    background-color: aliceblue;
+    padding:12px;
 
-.header {
-    background-color:bisque;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: sticky;
-    align-items: center;
 }
-.header a {
-    color: darkblue;
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0px;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    font-weight: bold;
 }
-#nav-links li {
+ul {
+    display: block;
+    list-style-type: disc;
+    float: right;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+}
+nav ul a {
+    text-decoration: none;
+    margin-top: 0px, 10px;
+    padding: 3px;
+}
+a:hover {
+    color:darkkhaki
+}   
+
+h2 a {
+    text-decoration: none;
+}
+nav {
     display: inline;
-
 }
-#nav-links li a{
-    display: inline;
-    color: chartreuse;
-    padding: 5px;
-    margin: 5px;
-    background-color: darkblue;
 
-}
 .frontimage img {
- width: 100%;
- height: 450px;
+     width: 100%;
+    height: 200px;
  }
 .first-project {
     margin-left: 25vw;
@@ -46,12 +66,20 @@
 
 .about-me {
     flex: 35%;
-    
-}
+    display: inline;
+    }
 .about-me h3 {
     margin: 30px, 30px;
     padding: 8px;
     float: left;
+}
+.work h3 {
+    margin: 30px, 30px;
+    padding: 8px;
+    float: left;
+}
+section ul div p {
+    font-size: medium;
 }
 .tubuyaki {
     display: block;
@@ -66,17 +94,10 @@ img {
     max-width:100%;
     height: 150px;
 }
-
-   
-div .contact-me {
-    display: block;
+  
+.contact-me {
+    display: inline;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    
-    
-    float: left;
-
-  
-  
-  
+    float: left;  
 }
