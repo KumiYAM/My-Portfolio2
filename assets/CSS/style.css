@@ -1,107 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
 body {
-    background-color: cadetblue;
+   color: cadetblue;
+    font-family: Helvetica, Arial, sans-serif;
 }
-div.header {
-    display: block;
-    background-color: aliceblue;
-    padding:12px;
 
+header {
+    padding: 20px 35px;
+    background-color: gray
 }
-h2 a {
-    display: block;
-    font-size: 30px;
-    margin-block-start: 0px;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
+
+header h1 {
+    color: floralwhite;
     font-weight: bold;
-    color: darkslategray;
-    line-height: 1;
-    text-decoration: none;
+    font-size: 36px;
+    margin: 0;
+    display: inline
 }
 
-ul {
-    display: inline;
+header a {
     float: right;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    padding-inline-end: 40px;
-}
-nav ul a {
     text-decoration: none;
-    margin-top: 0px, 10px;
-    padding: 10px;
-    color: darkslategray;
-    font-size: 20px;
+    color: #fce138;
+    list-style-type: style type none;
 }
 
-a:hover {
-    color:darkkhaki
-}   
-
-h2 a {
-    text-decoration: none;
+header nav {
+    float: right;
+    margin: 7px 0;
 }
-nav {
+
+  header nav ul li {
     display: inline;
-}
-
-.frontimage img {
-     width: 100%;
-    height: 200px;
  }
-.first-project {
-    margin-left: 25vw;
-    width: 75vw;
-}
-.first-project div img {
-    width: 100%;
-    height: 250px;
+
+ header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  section {
+    display : block
+  }
+
+.frontimage {
+    background-image: url('../image/wave_640.jpg');
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+
+.btm-label {
+    float : right;
+    padding: 35px 35px;
+    border: 2px ;
+    margin-top: 250px;
+    background-color: wheat;
+    width: 300px;
 }
 
-.flex-project {
-    margin-left: 25vw;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    width: 75vw;
-    height: 200px;
+.wrapper1 {
+  display : grid ;
+  height : 100px ;
+
+ grid-template-columns : repeat(5,1fr);
+ grid-auto-rows : (100px, auto) ;
+ padding : 30px 10px ;
+  background-color: darkorange ;
+}
+ .about-me {
+   grid-column-start: 1 ;
+   grid-column-end: 2 ;
+   grid-row-start: 1 ;
+   grid-row-end: 2 ;
+  text-align: right ;
+  margin-right: 20px ;
+}
+
+ .about-me-p {
+  grid-column-start: 2 ;
+  grid-column-end: 6 ;
+  grid-row-start: 1 ;
+  text-align: left ;
+}
+.wrapper2 {
+  display : grid ;
+  height : 1000px ;
+
+ grid-template-columns : repeat(5,3fr);
+ grid-auto-rows : (100px, auto) ;
+ padding : 0px;
+  background-color: rgb(212, 176, 130) ;
+}
+ .work {
+  grid-column-start: 1 ;
+  grid-column-end: 2 ;
+  grid-row-start: 1;
+  grid-row-end: 4 ; 
+  text-align: right ;
+  margin-right: 20px ;
+ }
+
+.large-img  {
+  grid-column-start: 2 ;
+  grid-column-end: 6 ;
+  grid-row-start: 1 ;
+  grid-row-end: 2 ; 
+  background-image: url('../image/wing_640.jpg');
+}
+
+.small-img-1 {
+  grid-column-start: 2 ;
+  grid-column-end: 4 ;
+  grid-row-start: 2;
+  grid-row-end: 3 ; 
+  background-image: url('../image/tunnel_640.jpg');
+}
+
+.small-img-2 {
+  grid-column-start: 4 ;
+  grid-column-end: 6 ;
+  grid-row-start: 2 ;
+  grid-row-end: 3 ; 
+  background-image: url('../image/wall_640.jpg');
+}
+
+.small-img-3 {
+  grid-column-start: 2 ;
+  grid-column-end: 4 ;
+  grid-row-start: 3 ;
+  grid-row-end: 4 ; 
+  background-image: url('../image/skyscrapers_640.jpg');
+      
+}
+
+.small-img-4 {
+  grid-column-start: 4 ;
+  grid-column-end: 6 ;
+  grid-row-start: 3 ;
+  grid-row-end: 4 ; 
+  background-image: url('../image/woodpanel_640.jpg');
 }
 
 
-   
 
-#born-till-now {
-    display: block;
-    margin:-left;
-}
-.work h3 {
-    margin: 30px, 30px;
-    padding: 8px;
-    float: left;
-}
-section ul div p {
-    font-size: medium;
-}
-.tubuyaki {
-    display: block;
-    margin-right: 10px;
-    float: right;
 
-}
-.hero-work {
-    width: 50%;
-}
-img {
-    max-width:100%;
-    height: 150px;
-}
-  
-.contact-me {
-    display: inline;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    float: left;  
-}
