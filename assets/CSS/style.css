@@ -182,7 +182,7 @@ footer ul li {
 }
 
 a {
-  font-size: 22px;
+  font-size: 18px;
   text-decoration: none;
   margin: 0px;
   color: rgb(248, 247, 245);
@@ -195,7 +195,8 @@ a:hover {
 footer a {
   float: left;
   text-decoration: none;
-  color: rgb(248, 247, 245);
+  color: cadetblue;
+  background-color: rgb(248, 247, 245);
   list-style-type: style type none;
   margin: 0 30px;
   font-weight: lighter;
