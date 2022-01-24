@@ -19,8 +19,10 @@ This is my first portfolio as a student of University of Texas Austin, bootcamp.
 
 ## Technology
 
+Inside portfolio : works showcase section
+
 JQuery, CSS libraries, Node.js, npm packages, APIs, SQL, Sequelize ORM database
-Heroku, React, MERN:Mongodb, Node, Npm Express, React
+Heroku, React, MERN:Mongodb, Node, Npm Express, React, many others
 
 ## Installation
 
