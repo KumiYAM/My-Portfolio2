@@ -45,4 +45,4 @@ GitHub User Name : ("https://github.com/KumiYAM")
 ## Language
 
 ![html](https://img.shields.io/badge/language-html-yellow)
-![css] (https://img.shields.io/badge/language-CSS-red)
+![css] (https://img.shields.io/badge/language-CSS-blue)
