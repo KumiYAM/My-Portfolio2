@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my first portfolio as a student of University of Texas Austin, bootcamp. (July 2021 to January 2022)
+This is my first portfolio as a student of University of Texas at Austin, Coding Bootcamp. (Graduated; January 2022)
 
 ## Table of Contents
 
@@ -19,14 +19,14 @@ This is my first portfolio as a student of University of Texas Austin, bootcamp.
 
 ## Technology
 
-Inside portfolio : works showcase section
+Inside portfolio : Works Showcase section
 
 JQuery, CSS libraries, Node.js, npm packages, APIs, SQL, Sequelize ORM database
-Heroku, React, MERN:Mongodb, Node, Npm Express, React, many others
+Heroku, React, MERN:Mongodb, Node, npm Express, React, many others
 
 ## Installation
 
-Not nessesary - Open Html file with browser and click on page
+Not necessary - Open HTML file with browser and click on page
 
 ## License
 
@@ -38,7 +38,7 @@ Undefined
 
 ## Tests
 
-UI testing may be in progress
+UI testing in progress
 
 ## How to ask questions
 
